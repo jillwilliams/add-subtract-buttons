@@ -14,17 +14,46 @@ h1 {
 }
 footer {
     color: yellow;
-
+    font-size: 0.5rem;
+    margin-top: 25px;
+    margin-bottom: 35px;
 }
 #addButton {
     color: black;
-
+    border: 1px aqua solid;
+    outline: 1px white solid;
+}
+#addButton:hover {
+    color: aqua;
+    background-color: black;
+    border: 1px white solid;
+    outline: 1px aqua solid;
 }
 #emptySpot {
     color: black;
-
+    width: 20px;
+    height: 20px;
+    margin-left: 46%;
+    margin-right: 44%;
+    background-color: white;
+    border: 1px aqua solid;
+    outline: 1px white solid;
+}
+#emptySpot:hover {
+    color: black;
+    border: aqua;
+    background-color: white;
 }
 #subtractButton {
     color: black;
-
+    border: 1px aqua solid;
+    outline: 1px white solid;
+    margin-left: 45%;
+    margin-right: 45%;
+}
+#subtractButton:hover {
+    color: aqua;
+    background-color: black;
+    border: 1px white solid;
+    outline: 1px aqua solid;
 }
